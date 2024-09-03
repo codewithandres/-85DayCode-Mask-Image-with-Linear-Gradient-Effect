@@ -1,11 +1,13 @@
+![alt text](<assets/bandicam 2024-09-02 21-07-19-379.jpg>)
+
 # Project Image Hover Effect
 
 This project implements a dynamic image reveal effect for project links on a web page. When users hover over project links, corresponding images are revealed with a smooth animation effect.
 
 ## File Structure
 
-- `js/app.js`: The main JavaScript file containing the hover effect logic.
-- `assets/`: Directory containing project images.
+-   `js/app.js`: The main JavaScript file containing the hover effect logic.
+-   `assets/`: Directory containing project images.
 
 ## How It Works
 
@@ -21,9 +23,9 @@ The `app.js` file handles the following key functionalities:
 
 ## Key Components
 
-- `ImageItem` class: Manages individual project images and their hover effects.
-- `animate` function: The main animation loop that updates mouse position and animates all `ImageItem` instances.
-- Event listeners: Handle mouse movements, window resizing, and hover events on project links.
+-   `ImageItem` class: Manages individual project images and their hover effects.
+-   `animate` function: The main animation loop that updates mouse position and animates all `ImageItem` instances.
+-   Event listeners: Handle mouse movements, window resizing, and hover events on project links.
 
 ## Usage
 
